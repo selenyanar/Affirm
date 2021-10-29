@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "Affirm_Logo.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

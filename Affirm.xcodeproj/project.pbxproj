@@ -95,9 +95,9 @@
 		16761506272C1B270017D2C7 /* Affirm */ = {
 			isa = PBXGroup;
 			children = (
+				1676150B272C1B270017D2C7 /* Assets.xcassets */,
 				16761507272C1B270017D2C7 /* AffirmApp.swift */,
 				16761509272C1B270017D2C7 /* ContentView.swift */,
-				1676150B272C1B270017D2C7 /* Assets.xcassets */,
 				16761510272C1B270017D2C7 /* Info.plist */,
 				1676150D272C1B270017D2C7 /* Preview Content */,
 			);
