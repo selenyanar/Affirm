@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		16761508272C1B270017D2C7 /* AffirmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16761507272C1B270017D2C7 /* AffirmApp.swift */; };
-		1676150A272C1B270017D2C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16761509272C1B270017D2C7 /* ContentView.swift */; };
+		1676150A272C1B270017D2C7 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16761509272C1B270017D2C7 /* LaunchView.swift */; };
 		1676150C272C1B270017D2C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1676150B272C1B270017D2C7 /* Assets.xcassets */; };
 		1676150F272C1B270017D2C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1676150E272C1B270017D2C7 /* Preview Assets.xcassets */; };
 		1676151A272C1B280017D2C7 /* AffirmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16761519272C1B280017D2C7 /* AffirmTests.swift */; };
@@ -37,7 +37,7 @@
 /* Begin PBXFileReference section */
 		16761504272C1B270017D2C7 /* Affirm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Affirm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16761507272C1B270017D2C7 /* AffirmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmApp.swift; sourceTree = "<group>"; };
-		16761509272C1B270017D2C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		16761509272C1B270017D2C7 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
 		1676150B272C1B270017D2C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1676150E272C1B270017D2C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		16761510272C1B270017D2C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -137,7 +137,7 @@
 		16761532272D15110017D2C7 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				16761509272C1B270017D2C7 /* ContentView.swift */,
+				16761509272C1B270017D2C7 /* LaunchView.swift */,
 				16761533272D16460017D2C7 /* SplashScreen.swift */,
 				16761535272D2DA10017D2C7 /* BackgroundView.swift */,
 			);
@@ -274,7 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				16761534272D16460017D2C7 /* SplashScreen.swift in Sources */,
-				1676150A272C1B270017D2C7 /* ContentView.swift in Sources */,
+				1676150A272C1B270017D2C7 /* LaunchView.swift in Sources */,
 				16761536272D2DA10017D2C7 /* BackgroundView.swift in Sources */,
 				16761508272C1B270017D2C7 /* AffirmApp.swift in Sources */,
 			);
