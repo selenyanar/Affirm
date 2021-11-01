@@ -17,6 +17,46 @@ struct SplashScreen: View {
             AnimatedBackground()
                 .edgesIgnoringSafeArea(.all)
                 .blur(radius: 50)
+            
+            VStack {
+                Image("affirm.face")
+                    .resizable()
+                    .frame(width: 200, height: 200)
+                    .padding(.bottom, 200)
+                    .opacity(animationFinished ? 1 : 0)
+                    .animation(.easeIn(duration: 7))
+                
+                Button(action: {},
+                       label: {
+                    Text("Login")
+                        .font(.title2)
+                        .fontWeight(.semibold)
+                        .foregroundColor(Color.white)
+                        .opacity(1)
+                })
+                    .frame(width: 300, height: 60)
+                    .border(Color.white, width: 1)
+                    .background(Color.clear)
+                    .padding(.bottom, 10)
+                    .opacity(animationFinished ? 1 : 0)
+                    .animation(.easeIn(duration: 3))
+                
+                Button(action: {},
+                       label: {
+                    Text("Sign up")
+                        .font(.title2)
+                        .fontWeight(.semibold)
+                        .foregroundColor(Color.white)
+                        .opacity(1)
+                })
+                    .frame(width: 300, height: 60)
+                    .border(Color.white, width: 1)
+                    .background(Color.clear)
+                    .opacity(animationFinished ? 1 : 0)
+                    .animation(.easeIn(duration: 4))
+                
+            }
+            
             ZStack {
                 
                 if !removeSplash {
