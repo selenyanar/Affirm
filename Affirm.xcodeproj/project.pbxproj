@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16527E1C2732675800AD3F01 /* Affirmations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16527E1B2732675800AD3F01 /* Affirmations.swift */; };
 		16761508272C1B270017D2C7 /* AffirmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16761507272C1B270017D2C7 /* AffirmApp.swift */; };
 		1676150A272C1B270017D2C7 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16761509272C1B270017D2C7 /* LaunchView.swift */; };
 		1676150C272C1B270017D2C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1676150B272C1B270017D2C7 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16527E1B2732675800AD3F01 /* Affirmations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Affirmations.swift; sourceTree = "<group>"; };
 		16761504272C1B270017D2C7 /* Affirm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Affirm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16761507272C1B270017D2C7 /* AffirmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmApp.swift; sourceTree = "<group>"; };
 		16761509272C1B270017D2C7 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
@@ -76,6 +78,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16527E192732673200AD3F01 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				16527E1B2732675800AD3F01 /* Affirmations.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		16527E1A2732673A00AD3F01 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		167614FB272C1B270017D2C7 = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +117,8 @@
 			isa = PBXGroup;
 			children = (
 				16761532272D15110017D2C7 /* View */,
+				16527E1A2732673A00AD3F01 /* Controller */,
+				16527E192732673200AD3F01 /* Model */,
 				1676150B272C1B270017D2C7 /* Assets.xcassets */,
 				16761510272C1B270017D2C7 /* Info.plist */,
 				16761507272C1B270017D2C7 /* AffirmApp.swift */,
@@ -276,6 +295,7 @@
 				16761534272D16460017D2C7 /* SplashScreen.swift in Sources */,
 				1676150A272C1B270017D2C7 /* LaunchView.swift in Sources */,
 				16761536272D2DA10017D2C7 /* BackgroundView.swift in Sources */,
+				16527E1C2732675800AD3F01 /* Affirmations.swift in Sources */,
 				16761508272C1B270017D2C7 /* AffirmApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
