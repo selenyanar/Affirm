@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		163DFE9D2732D17F00FBCB8D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163DFE9C2732D17F00FBCB8D /* LoginView.swift */; };
 		16527E1C2732675800AD3F01 /* Affirmations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16527E1B2732675800AD3F01 /* Affirmations.swift */; };
 		16761508272C1B270017D2C7 /* AffirmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16761507272C1B270017D2C7 /* AffirmApp.swift */; };
 		1676150A272C1B270017D2C7 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16761509272C1B270017D2C7 /* LaunchView.swift */; };
@@ -16,6 +17,7 @@
 		16761525272C1B280017D2C7 /* AffirmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16761524272C1B280017D2C7 /* AffirmUITests.swift */; };
 		16761534272D16460017D2C7 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16761533272D16460017D2C7 /* SplashScreen.swift */; };
 		16761536272D2DA10017D2C7 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16761535272D2DA10017D2C7 /* BackgroundView.swift */; };
+		16D64BAD2732DC9B00BB8FDF /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D64BAC2732DC9B00BB8FDF /* SignUpView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		163DFE9C2732D17F00FBCB8D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		16527E1B2732675800AD3F01 /* Affirmations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Affirmations.swift; sourceTree = "<group>"; };
 		16761504272C1B270017D2C7 /* Affirm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Affirm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16761507272C1B270017D2C7 /* AffirmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmApp.swift; sourceTree = "<group>"; };
@@ -51,6 +54,7 @@
 		16761526272C1B280017D2C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16761533272D16460017D2C7 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 		16761535272D2DA10017D2C7 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		16D64BAC2732DC9B00BB8FDF /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,8 +161,10 @@
 			isa = PBXGroup;
 			children = (
 				16761509272C1B270017D2C7 /* LaunchView.swift */,
-				16761533272D16460017D2C7 /* SplashScreen.swift */,
 				16761535272D2DA10017D2C7 /* BackgroundView.swift */,
+				16761533272D16460017D2C7 /* SplashScreen.swift */,
+				163DFE9C2732D17F00FBCB8D /* LoginView.swift */,
+				16D64BAC2732DC9B00BB8FDF /* SignUpView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -292,8 +298,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				163DFE9D2732D17F00FBCB8D /* LoginView.swift in Sources */,
 				16761534272D16460017D2C7 /* SplashScreen.swift in Sources */,
 				1676150A272C1B270017D2C7 /* LaunchView.swift in Sources */,
+				16D64BAD2732DC9B00BB8FDF /* SignUpView.swift in Sources */,
 				16761536272D2DA10017D2C7 /* BackgroundView.swift in Sources */,
 				16527E1C2732675800AD3F01 /* Affirmations.swift in Sources */,
 				16761508272C1B270017D2C7 /* AffirmApp.swift in Sources */,
