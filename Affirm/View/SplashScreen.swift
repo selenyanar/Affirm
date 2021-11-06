@@ -26,34 +26,10 @@ struct SplashScreen: View {
                     .opacity(animationFinished ? 1 : 0)
                     .animation(.easeIn(duration: 7))
                 
-                Button(action: {},
-                       label: {
-                    Text("Login")
-                        .font(.title2)
-                        .fontWeight(.semibold)
-                        .foregroundColor(Color.white)
-                        .opacity(1)
-                })
-                    .frame(width: 300, height: 60)
-                    .border(Color.white, width: 1)
-                    .background(Color.clear)
-                    .padding(.bottom, 10)
+                SignInWithApple()
                     .opacity(animationFinished ? 1 : 0)
                     .animation(.easeIn(duration: 3))
-                
-                Button(action: {},
-                       label: {
-                    Text("Sign up")
-                        .font(.title2)
-                        .fontWeight(.semibold)
-                        .foregroundColor(Color.white)
-                        .opacity(1)
-                })
-                    .frame(width: 300, height: 60)
-                    .border(Color.white, width: 1)
-                    .background(Color.clear)
-                    .opacity(animationFinished ? 1 : 0)
-                    .animation(.easeIn(duration: 4))
+                    .offset(y: 90)
                 
             }
             

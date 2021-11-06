@@ -27,7 +27,7 @@ struct Affirmations {
         
     ]
     
-    var love = [
+    var startWithLove = [
         "I find love everywhere I go.",
         "Love starts with me.",
         "I naturally find love everywhere.",

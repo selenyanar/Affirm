@@ -17,6 +17,7 @@
 		16761525272C1B280017D2C7 /* AffirmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16761524272C1B280017D2C7 /* AffirmUITests.swift */; };
 		16761534272D16460017D2C7 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16761533272D16460017D2C7 /* SplashScreen.swift */; };
 		16761536272D2DA10017D2C7 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16761535272D2DA10017D2C7 /* BackgroundView.swift */; };
+		167D6A88273667A500C8713D /* SignInWithApple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167D6A87273667A500C8713D /* SignInWithApple.swift */; };
 		16D64BAD2732DC9B00BB8FDF /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D64BAC2732DC9B00BB8FDF /* SignUpView.swift */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +55,8 @@
 		16761526272C1B280017D2C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16761533272D16460017D2C7 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 		16761535272D2DA10017D2C7 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		167D6A862736640800C8713D /* Affirm.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Affirm.entitlements; sourceTree = "<group>"; };
+		167D6A87273667A500C8713D /* SignInWithApple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithApple.swift; sourceTree = "<group>"; };
 		16D64BAC2732DC9B00BB8FDF /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,6 +96,7 @@
 		16527E1A2732673A00AD3F01 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				167D6A87273667A500C8713D /* SignInWithApple.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -120,6 +124,7 @@
 		16761506272C1B270017D2C7 /* Affirm */ = {
 			isa = PBXGroup;
 			children = (
+				167D6A862736640800C8713D /* Affirm.entitlements */,
 				16761532272D15110017D2C7 /* View */,
 				16527E1A2732673A00AD3F01 /* Controller */,
 				16527E192732673200AD3F01 /* Model */,
@@ -304,6 +309,7 @@
 				16D64BAD2732DC9B00BB8FDF /* SignUpView.swift in Sources */,
 				16761536272D2DA10017D2C7 /* BackgroundView.swift in Sources */,
 				16527E1C2732675800AD3F01 /* Affirmations.swift in Sources */,
+				167D6A88273667A500C8713D /* SignInWithApple.swift in Sources */,
 				16761508272C1B270017D2C7 /* AffirmApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,6 +467,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Affirm/Affirm.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Affirm/Preview Content\"";
 				DEVELOPMENT_TEAM = 7NN4GA72T6;
@@ -483,6 +490,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Affirm/Affirm.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Affirm/Preview Content\"";
 				DEVELOPMENT_TEAM = 7NN4GA72T6;
