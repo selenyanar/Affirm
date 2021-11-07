@@ -37,6 +37,7 @@ struct SignInWithApple: View {
         SignInWithAppleButton(.continue,
                               onRequest: configure,
                               onCompletion: handle)
+            .cornerRadius(25)
             .frame(width: 300, height: 45)
             .padding()
     }
