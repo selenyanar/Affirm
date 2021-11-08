@@ -28,6 +28,10 @@ struct GridView: View {
                          sampleAffirmation: "This is a sample affirmation for Career",
                          icon: "line.diagonal.arrow",
                          color: "11")
+            GridCellView(categoryName: "Relationships",
+                         sampleAffirmation: "This is a sample affirmation for Relationships",
+                         icon: "person.3.fill",
+                         color: "5")
         }
     }
 }

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1608BE1C27396C7D0064B33C /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1608BE1B27396C7D0064B33C /* CategoryView.swift */; };
+		1608BE1E27397FC10064B33C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1608BE1D27397FC10064B33C /* MainView.swift */; };
 		16527E1C2732675800AD3F01 /* Affirmations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16527E1B2732675800AD3F01 /* Affirmations.swift */; };
 		16761508272C1B270017D2C7 /* AffirmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16761507272C1B270017D2C7 /* AffirmApp.swift */; };
 		1676150A272C1B270017D2C7 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16761509272C1B270017D2C7 /* LaunchView.swift */; };
@@ -39,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1608BE1B27396C7D0064B33C /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		1608BE1D27397FC10064B33C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		16527E1B2732675800AD3F01 /* Affirmations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Affirmations.swift; sourceTree = "<group>"; };
 		16761504272C1B270017D2C7 /* Affirm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Affirm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16761507272C1B270017D2C7 /* AffirmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmApp.swift; sourceTree = "<group>"; };
@@ -96,6 +100,8 @@
 		16527E1A2732673A00AD3F01 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				16761535272D2DA10017D2C7 /* BackgroundView.swift */,
+				16A7498C2737E9EC00DC48AA /* GridView.swift */,
 				167D6A87273667A500C8713D /* SignInWithApple.swift */,
 			);
 			path = Controller;
@@ -166,10 +172,10 @@
 			isa = PBXGroup;
 			children = (
 				16761509272C1B270017D2C7 /* LaunchView.swift */,
-				16761535272D2DA10017D2C7 /* BackgroundView.swift */,
 				16761533272D16460017D2C7 /* SplashScreen.swift */,
 				16D64BAC2732DC9B00BB8FDF /* SignUpView.swift */,
-				16A7498C2737E9EC00DC48AA /* GridView.swift */,
+				1608BE1B27396C7D0064B33C /* CategoryView.swift */,
+				1608BE1D27397FC10064B33C /* MainView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -308,9 +314,11 @@
 				16A7498D2737E9EC00DC48AA /* GridView.swift in Sources */,
 				16D64BAD2732DC9B00BB8FDF /* SignUpView.swift in Sources */,
 				16761536272D2DA10017D2C7 /* BackgroundView.swift in Sources */,
+				1608BE1E27397FC10064B33C /* MainView.swift in Sources */,
 				16527E1C2732675800AD3F01 /* Affirmations.swift in Sources */,
 				167D6A88273667A500C8713D /* SignInWithApple.swift in Sources */,
 				16761508272C1B270017D2C7 /* AffirmApp.swift in Sources */,
+				1608BE1C27396C7D0064B33C /* CategoryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
