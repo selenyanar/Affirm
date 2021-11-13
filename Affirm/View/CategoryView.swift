@@ -24,7 +24,7 @@ struct CategoryView: View {
                     
                 }
                 .frame(width: 430, height: 115)
-                .background(Color("10"))
+                .background(Color("3"))
                 .cornerRadius(30)
                 .shadow(color: .gray, radius: 7, x: 3, y: 3)
                 .edgesIgnoringSafeArea(.all)

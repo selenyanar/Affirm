@@ -3,12 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1608BE1C27396C7D0064B33C /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1608BE1B27396C7D0064B33C /* CategoryView.swift */; };
 		1608BE1E27397FC10064B33C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1608BE1D27397FC10064B33C /* MainView.swift */; };
+		1608BE20273F92DC0064B33C /* HoldBreathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1608BE1F273F92DC0064B33C /* HoldBreathView.swift */; };
 		16527E1C2732675800AD3F01 /* Affirmations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16527E1B2732675800AD3F01 /* Affirmations.swift */; };
 		16761508272C1B270017D2C7 /* AffirmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16761507272C1B270017D2C7 /* AffirmApp.swift */; };
 		1676150A272C1B270017D2C7 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16761509272C1B270017D2C7 /* LaunchView.swift */; };
@@ -19,8 +20,11 @@
 		16761534272D16460017D2C7 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16761533272D16460017D2C7 /* SplashScreen.swift */; };
 		16761536272D2DA10017D2C7 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16761535272D2DA10017D2C7 /* BackgroundView.swift */; };
 		167D6A88273667A500C8713D /* SignInWithApple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167D6A87273667A500C8713D /* SignInWithApple.swift */; };
+		169A71DD273FA38800A16BDC /* breathe1.json in Resources */ = {isa = PBXBuildFile; fileRef = 169A71DB273FA38800A16BDC /* breathe1.json */; };
+		169A71E0273FA4B000A16BDC /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169A71DF273FA4AF00A16BDC /* LottieView.swift */; };
 		16A7498D2737E9EC00DC48AA /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A7498C2737E9EC00DC48AA /* GridView.swift */; };
 		16D64BAD2732DC9B00BB8FDF /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D64BAC2732DC9B00BB8FDF /* SignUpView.swift */; };
+		6593E4EFE12D81E21548D596 /* Pods_Affirm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 399D71A1D3C5C2C228334714 /* Pods_Affirm.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +45,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F20D3C34FB902EBF724DB52 /* Pods-Affirm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Affirm.release.xcconfig"; path = "Target Support Files/Pods-Affirm/Pods-Affirm.release.xcconfig"; sourceTree = "<group>"; };
 		1608BE1B27396C7D0064B33C /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 		1608BE1D27397FC10064B33C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		1608BE1F273F92DC0064B33C /* HoldBreathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoldBreathView.swift; sourceTree = "<group>"; };
 		16527E1B2732675800AD3F01 /* Affirmations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Affirmations.swift; sourceTree = "<group>"; };
 		16761504272C1B270017D2C7 /* Affirm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Affirm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16761507272C1B270017D2C7 /* AffirmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmApp.swift; sourceTree = "<group>"; };
@@ -60,8 +66,12 @@
 		16761535272D2DA10017D2C7 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 		167D6A862736640800C8713D /* Affirm.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Affirm.entitlements; sourceTree = "<group>"; };
 		167D6A87273667A500C8713D /* SignInWithApple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithApple.swift; sourceTree = "<group>"; };
+		169A71DB273FA38800A16BDC /* breathe1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = breathe1.json; sourceTree = "<group>"; };
+		169A71DF273FA4AF00A16BDC /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 		16A7498C2737E9EC00DC48AA /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
 		16D64BAC2732DC9B00BB8FDF /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		399D71A1D3C5C2C228334714 /* Pods_Affirm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Affirm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C64E9E69452832AA2CBA8E1A /* Pods-Affirm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Affirm.debug.xcconfig"; path = "Target Support Files/Pods-Affirm/Pods-Affirm.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6593E4EFE12D81E21548D596 /* Pods_Affirm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +100,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0508BF2E95C6E5D09D72CA2B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C64E9E69452832AA2CBA8E1A /* Pods-Affirm.debug.xcconfig */,
+				0F20D3C34FB902EBF724DB52 /* Pods-Affirm.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		16527E192732673200AD3F01 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +120,7 @@
 		16527E1A2732673A00AD3F01 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				169A71DF273FA4AF00A16BDC /* LottieView.swift */,
 				16761535272D2DA10017D2C7 /* BackgroundView.swift */,
 				16A7498C2737E9EC00DC48AA /* GridView.swift */,
 				167D6A87273667A500C8713D /* SignInWithApple.swift */,
@@ -114,6 +135,8 @@
 				16761518272C1B280017D2C7 /* AffirmTests */,
 				16761523272C1B280017D2C7 /* AffirmUITests */,
 				16761505272C1B270017D2C7 /* Products */,
+				0508BF2E95C6E5D09D72CA2B /* Pods */,
+				4C5B9C2F12C1F891620ADBA6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,6 +157,7 @@
 				16761532272D15110017D2C7 /* View */,
 				16527E1A2732673A00AD3F01 /* Controller */,
 				16527E192732673200AD3F01 /* Model */,
+				169A71DA273FA38800A16BDC /* Lotties */,
 				1676150B272C1B270017D2C7 /* Assets.xcassets */,
 				16761510272C1B270017D2C7 /* Info.plist */,
 				16761507272C1B270017D2C7 /* AffirmApp.swift */,
@@ -176,8 +200,25 @@
 				16D64BAC2732DC9B00BB8FDF /* SignUpView.swift */,
 				1608BE1B27396C7D0064B33C /* CategoryView.swift */,
 				1608BE1D27397FC10064B33C /* MainView.swift */,
+				1608BE1F273F92DC0064B33C /* HoldBreathView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		169A71DA273FA38800A16BDC /* Lotties */ = {
+			isa = PBXGroup;
+			children = (
+				169A71DB273FA38800A16BDC /* breathe1.json */,
+			);
+			path = Lotties;
+			sourceTree = "<group>";
+		};
+		4C5B9C2F12C1F891620ADBA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				399D71A1D3C5C2C228334714 /* Pods_Affirm.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,9 +228,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 16761529272C1B280017D2C7 /* Build configuration list for PBXNativeTarget "Affirm" */;
 			buildPhases = (
+				074894993B8FD7D6A06541CE /* [CP] Check Pods Manifest.lock */,
 				16761500272C1B270017D2C7 /* Sources */,
 				16761501272C1B270017D2C7 /* Frameworks */,
 				16761502272C1B270017D2C7 /* Resources */,
+				6D538E9644C42ABAD8F14507 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -285,6 +328,7 @@
 			files = (
 				1676150F272C1B270017D2C7 /* Preview Assets.xcassets in Resources */,
 				1676150C272C1B270017D2C7 /* Assets.xcassets in Resources */,
+				169A71DD273FA38800A16BDC /* breathe1.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,11 +348,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		074894993B8FD7D6A06541CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Affirm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D538E9644C42ABAD8F14507 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Affirm/Pods-Affirm-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Affirm/Pods-Affirm-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Affirm/Pods-Affirm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		16761500272C1B270017D2C7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1608BE20273F92DC0064B33C /* HoldBreathView.swift in Sources */,
 				16761534272D16460017D2C7 /* SplashScreen.swift in Sources */,
 				1676150A272C1B270017D2C7 /* LaunchView.swift in Sources */,
 				16A7498D2737E9EC00DC48AA /* GridView.swift in Sources */,
@@ -319,6 +406,7 @@
 				167D6A88273667A500C8713D /* SignInWithApple.swift in Sources */,
 				16761508272C1B270017D2C7 /* AffirmApp.swift in Sources */,
 				1608BE1C27396C7D0064B33C /* CategoryView.swift in Sources */,
+				169A71E0273FA4B000A16BDC /* LottieView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,6 +560,7 @@
 		};
 		1676152A272C1B280017D2C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C64E9E69452832AA2CBA8E1A /* Pods-Affirm.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -495,6 +584,7 @@
 		};
 		1676152B272C1B280017D2C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F20D3C34FB902EBF724DB52 /* Pods-Affirm.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
