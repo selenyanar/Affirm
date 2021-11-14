@@ -22,10 +22,8 @@ struct HoldBreathView: View {
                 ZStack {
                     
                     LottieView(filename: "breathe1")
-                    Image("affirm.face")
-                        .resizable()
-                        .frame(width: 100, height: 100)
-                        .offset(y: -60)
+
+                   
                     
                 }
                 
