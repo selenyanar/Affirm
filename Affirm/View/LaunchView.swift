@@ -10,9 +10,34 @@ import SwiftUI
 struct LaunchView: View {
     var body: some View {
         
-        SplashScreen()
-    
-        
+        NavigationView {
+            
+            ZStack {
+                
+                Color("3")
+                    .ignoresSafeArea()
+                
+                VStack {
+                    
+                    Image("affirm.face")
+                        .resizable()
+                        .frame(width: 200, height: 200)
+                        .padding(.bottom, 200)
+                    
+                    NavigationLink {
+                        CategoryView()
+                    } label: {
+                        Text("Continue")
+                            .font(.title2)
+                            .fontWeight(.semibold)
+                            .foregroundColor(.white)
+                            .frame(width: 300, height: 50)
+                            .background(Color("5"))
+                            .cornerRadius(50)
+                    }
+                }
+            }
+        }
     }
 }
 

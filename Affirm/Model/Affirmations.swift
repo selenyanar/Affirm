@@ -9,6 +9,12 @@ import Foundation
 
 struct Affirmations {
     
+    var love = [
+        "I move my body with joy and gratitude.",
+        "I am open to trying new things to improve my health.",
+        "I love my body and all that it does for me."
+    ]
+    
     var health = [
         "I move my body with joy and gratitude.",
         "I am open to trying new things to improve my health.",

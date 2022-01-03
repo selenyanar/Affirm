@@ -23,7 +23,7 @@
 		169A71DD273FA38800A16BDC /* breathe1.json in Resources */ = {isa = PBXBuildFile; fileRef = 169A71DB273FA38800A16BDC /* breathe1.json */; };
 		169A71E0273FA4B000A16BDC /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169A71DF273FA4AF00A16BDC /* LottieView.swift */; };
 		16A7498D2737E9EC00DC48AA /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A7498C2737E9EC00DC48AA /* GridView.swift */; };
-		16D64BAD2732DC9B00BB8FDF /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D64BAC2732DC9B00BB8FDF /* SignUpView.swift */; };
+		16CFBB572765F3300077BECB /* UDM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CFBB562765F3300077BECB /* UDM.swift */; };
 		6593E4EFE12D81E21548D596 /* Pods_Affirm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 399D71A1D3C5C2C228334714 /* Pods_Affirm.framework */; };
 /* End PBXBuildFile section */
 
@@ -69,7 +69,7 @@
 		169A71DB273FA38800A16BDC /* breathe1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = breathe1.json; sourceTree = "<group>"; };
 		169A71DF273FA4AF00A16BDC /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 		16A7498C2737E9EC00DC48AA /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
-		16D64BAC2732DC9B00BB8FDF /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		16CFBB562765F3300077BECB /* UDM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UDM.swift; sourceTree = "<group>"; };
 		399D71A1D3C5C2C228334714 /* Pods_Affirm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Affirm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C64E9E69452832AA2CBA8E1A /* Pods-Affirm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Affirm.debug.xcconfig"; path = "Target Support Files/Pods-Affirm/Pods-Affirm.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -113,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				16527E1B2732675800AD3F01 /* Affirmations.swift */,
+				16CFBB562765F3300077BECB /* UDM.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -197,7 +198,6 @@
 			children = (
 				16761509272C1B270017D2C7 /* LaunchView.swift */,
 				16761533272D16460017D2C7 /* SplashScreen.swift */,
-				16D64BAC2732DC9B00BB8FDF /* SignUpView.swift */,
 				1608BE1B27396C7D0064B33C /* CategoryView.swift */,
 				1608BE1D27397FC10064B33C /* MainView.swift */,
 				1608BE1F273F92DC0064B33C /* HoldBreathView.swift */,
@@ -397,9 +397,9 @@
 			files = (
 				1608BE20273F92DC0064B33C /* HoldBreathView.swift in Sources */,
 				16761534272D16460017D2C7 /* SplashScreen.swift in Sources */,
+				16CFBB572765F3300077BECB /* UDM.swift in Sources */,
 				1676150A272C1B270017D2C7 /* LaunchView.swift in Sources */,
 				16A7498D2737E9EC00DC48AA /* GridView.swift in Sources */,
-				16D64BAD2732DC9B00BB8FDF /* SignUpView.swift in Sources */,
 				16761536272D2DA10017D2C7 /* BackgroundView.swift in Sources */,
 				1608BE1E27397FC10064B33C /* MainView.swift in Sources */,
 				16527E1C2732675800AD3F01 /* Affirmations.swift in Sources */,
